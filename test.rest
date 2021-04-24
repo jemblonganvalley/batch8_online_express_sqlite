@@ -1,0 +1,19 @@
+###
+POST http://localhost:8000/api/customer
+Content-Type: application/json
+Accept: application/json
+
+{
+    "customer_first_name" : "evalia",
+    "customer_last_name" : "rompas",
+    "customer_address" : "depok",
+    "customer_phone" : "08123124412",
+    "customer_email" : "evalia@gmail.com",
+    "customer_birthday" : "28-10-1984",
+    "customer_gender" : "wanita"
+}
+
+###
+GET http://localhost:8000/api/customer
+Content-Type: application/json
+Accept: application/json

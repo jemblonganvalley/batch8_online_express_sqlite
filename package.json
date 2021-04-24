@@ -1,0 +1,19 @@
+{
+  "name": "express-sqlite-api",
+  "version": "1.0.0",
+  "description": "belajar membuat rest api dengan express dan sqlite3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon . --watch",
+    "migration:customers": "node ./models/schema/customerSchema.js"
+  },
+  "keywords": [],
+  "author": "fadliselaz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "sqlite3": "^5.0.2"
+  }
+}
